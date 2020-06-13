@@ -1,0 +1,18 @@
+body {
+  margin: 0 auto;
+}
+
+input[type="range"]:active::-webkit-slider-thumb:before,
+input[type="range"]:active::-webkit-slider-thumb:after
+{
+  top: 6px;
+}
+
+input[type="range"]:active::-webkit-slider-thumb{
+  width:16px;
+  height:16px;
+}
+
+input[type="range"]:active::-webkit-slider-thumb:after {
+  left: 16px;
+}
